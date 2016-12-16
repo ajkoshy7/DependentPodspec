@@ -8,22 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DependentPodspec'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DependentPodspec. Is it meaningful now???'
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DependentPodspec'
+  s.version          = '1.0.0'
+  s.summary                 = 'Instant access to beacons to build scalable, contextual and hyperlocal applications'
+  s.homepage                = 'https://docs.BeaconsInSpace.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Koshy' => 'ajkoshy7@gmail.com' }
   s.source           = { :http => 'https://docs.beaconsinspace.com/download/ios/iOS-SDK/pod/BeaconsInSpace-iOS-SDK-1.5.2.zip' }
-
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'DependentPodspec/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DependentPodspec' => ['DependentPodspec/Assets/*.png']
-  # }
-
+# s.source_files = 'DependentPodspec/Classes/**/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'BeaconsInSpace'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

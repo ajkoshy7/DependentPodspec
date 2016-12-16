@@ -1,0 +1,6 @@
+framework module DependentPodspec {
+  umbrella header "DependentPodspec-umbrella.h"
+
+  export *
+  module * { export * }
+}

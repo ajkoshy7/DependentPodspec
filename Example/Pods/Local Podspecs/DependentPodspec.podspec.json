@@ -1,0 +1,21 @@
+{
+  "name": "DependentPodspec",
+  "version": "0.1.0",
+  "summary": "A short description of DependentPodspec.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DependentPodspec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alex Koshy": "ajkoshy7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DependentPodspec.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DependentPodspec/Classes/**/*"
+}

@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DD6B67BFAD4E54F9ACC3AC0B /* Pods_DependentPodspec_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A977D0F9BA4D42C01616326 /* Pods_DependentPodspec_Example.framework */; };
+		FAA391271E1CC29100B967F6 /* BIS-DependentPodspec.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FAA391261E1CC29100B967F6 /* BIS-DependentPodspec.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +63,9 @@
 		8A977D0F9BA4D42C01616326 /* Pods_DependentPodspec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DependentPodspec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1794424E6E948D1C9E6E6B8 /* Pods-DependentPodspec_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependentPodspec_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DependentPodspec_Tests/Pods-DependentPodspec_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD263F29F5074CB77BC552A4 /* Pods_DependentPodspec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DependentPodspec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1E01DFC45072C01F06D09EA /* DependentPodspec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DependentPodspec.podspec; path = ../DependentPodspec.podspec; sourceTree = "<group>"; };
 		D46B1D67091B5E7D560B9E9C /* Pods-DependentPodspec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DependentPodspec_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DependentPodspec_Example/Pods-DependentPodspec_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F37C6EF096DF6F02AC1684AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FAA391261E1CC29100B967F6 /* BIS-DependentPodspec.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BIS-DependentPodspec.podspec"; path = "../BIS-DependentPodspec.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +176,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				C1E01DFC45072C01F06D09EA /* DependentPodspec.podspec */,
+				FAA391261E1CC29100B967F6 /* BIS-DependentPodspec.podspec */,
 				56956EAC742ACF76E236D849 /* README.md */,
 				F37C6EF096DF6F02AC1684AB /* LICENSE */,
 			);
@@ -276,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA391271E1CC29100B967F6 /* BIS-DependentPodspec.podspec in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

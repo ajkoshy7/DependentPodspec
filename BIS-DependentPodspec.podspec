@@ -16,6 +16,5 @@ Pod::Spec.new do |s|
   s.source                  = { :git => 'https://github.com/ajkoshy7/DependentPodspec.git', :tag => '1.5.4' }
   s.ios.deployment_target   = '8.0'
   s.source_files            = 'DependentPodspec/Classes/**/*'
-  s.dependency 'BIS-Staging', '~> 1.5.4.beta.4'
-# s.dependency 'Alamofire'
+  s.dependency 'BIS-Staging', '~> 1.5.4.beta.7'
 end
